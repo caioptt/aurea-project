@@ -22,21 +22,21 @@
         <v-divider></v-divider>
 
         <v-list dense nav>
-          <v-list-item link>
+          <v-list-item to="/" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Tópico 1</h2>
+                <h2>Introdução</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
-          <v-list-item link>
+          <v-list-item to="/FirstTopic" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
@@ -65,19 +65,19 @@
       </v-img>
     </v-navigation-drawer>
     <v-main>
-      <HelloWorld />
+      <Dash />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Dash from "./components/Dash";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    Dash,
   },
 
   data: () => ({
