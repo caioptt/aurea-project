@@ -36,7 +36,7 @@
 
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
-          <v-list-item to="/FirstTopic" link>
+          <v-list-item to="/first" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
@@ -65,20 +65,18 @@
       </v-img>
     </v-navigation-drawer>
     <v-main>
-      <Dash />
+      <transition name="fade">
+        <router-view></router-view>
+      </transition>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Dash from "./components/Dash";
-
 export default {
   name: "App",
 
-  components: {
-    Dash,
-  },
+  components: {},
 
   data: () => ({
     drawer: false,
