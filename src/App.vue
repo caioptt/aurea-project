@@ -43,21 +43,21 @@
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Tópico 2</h2>
+                <h2>Tópico 1</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
-          <v-list-item link>
+          <v-list-item to="/second" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Tópico 3</h2>
+                <h2>Tópico 2</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>

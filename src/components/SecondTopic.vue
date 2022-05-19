@@ -1,15 +1,8 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-card class="mt-8" tile elevation="5">
-        <v-col>
-          <v-card-text>
-            <h2>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              erat sapien, sodales a tortor ut, viverra dictum
-            </h2>
-          </v-card-text>
-        </v-col>
+      <v-card class="mt-8 ml-4 mr-4" tile elevation="5">
+        <v-col> </v-col>
 
         <v-col>
           <v-card-text>

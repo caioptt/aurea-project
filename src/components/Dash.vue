@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-row class="text-center">
-      <v-card class="mt-8" tile elevation="5">
+    <v-row>
+      <v-card class="mt-8 ml-4 mr-4" tile elevation="5">
         <v-col>
           <v-card-text>
             <h2>
@@ -12,8 +12,14 @@
         </v-col>
 
         <v-row>
-          <v-col xs="12" sm="12" md="5" lg="5">
-            <v-img class="ml-6" src="@/assets/aureaIsabel.jpg"></v-img>
+          <v-col class="" xs="12" sm="12" md="5" lg="5">
+            <v-card-text>
+              <v-img
+                class="ml-4"
+                width="90%"
+                src="@/assets/aureaIsabel.jpg"
+              ></v-img>
+            </v-card-text>
           </v-col>
           <v-col xs="12" sm="12" md="7" lg="7"
             ><v-card-text
