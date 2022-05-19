@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-card tile elevation="5">
+      <v-card class="mt-8" tile elevation="5">
         <v-col>
           <v-card-text>
             <h2>

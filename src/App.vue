@@ -24,7 +24,7 @@
         <v-list dense nav>
           <v-list-item to="/" link>
             <v-list-item-icon>
-              <v-icon class="white--text">mdi-pencil-outline</v-icon>
+              <v-icon class="white--text">mdi-clipboard-text</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
