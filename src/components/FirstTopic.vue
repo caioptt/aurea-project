@@ -1,40 +1,50 @@
 <template>
   <v-container>
-    <v-row class="text-center">
+    <v-row>
       <v-card class="mt-8 ml-4 mr-4" tile elevation="5">
         <v-col>
-          <v-card-text>
-            <h2>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              erat sapien, sodales a tortor ut, viverra dictum
-            </h2>
+          <v-card-text class="text-center mt-2">
+            <h2>E depois de 134 anos ?</h2>
           </v-card-text>
         </v-col>
 
         <v-col>
           <v-card-text>
-            Cras eu ex sit amet ante mattis semper. Phasellus dapibus mauris nec
-            quam ultrices, id tempor risus blandit. Quisque mollis, purus eget
-            vulputate luctus, diam mi sodales nunc, nec tincidunt ante nunc eget
-            turpis. Suspendisse porttitor dolor id elit iaculis fringilla.
-            Praesent non condimentum lorem, sed finibus eros. Nullam gravida sed
-            dolor ultrices congue. Curabitur ut leo faucibus, pulvinar tortor
-            et, commodo leo. Phasellus ut placerat ipsum. Nunc nec urna dui. In
-            tempor leo quis velit tincidunt pretium. Etiam porttitor, urna
-            lacinia porta lacinia, purus dui laoreet orci, non posuere arcu erat
-            a mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Aliquam sed elementum enim. Aliquam erat volutpat. Vestibulum
-            scelerisque placerat magna, viverra luctus mi dapibus nec. Vivamus
-            maximus, sapien ut fermentum pulvinar, enim lectus lobortis quam,
-            sed rutrum sapien ipsum eget nibh. In a faucibus felis, eget
-            consectetur risus. Aliquam vulputate facilisis velit, eu lacinia
-            diam accumsan sed. Phasellus in enim rutrum, cursus quam eu, aliquet
-            ante. Donec fringilla nibh vel nunc mattis sagittis. Proin id
-            tristique odio, vel varius felis. Donec a aliquet tellus, ac
-            ultricies turpis. Integer leo mi, porttitor eget augue non,
-            imperdiet aliquam leo. Phasellus interdum eros a nunc dignissim, ut
-            porta dolor rutrum. In hac habitasse platea dictumst.</v-card-text
-          ></v-col
+            <p>
+              Uma reportagem dos 134 anos da Lei Áurea, apontadando os
+              resquícios da escravidão em diversas formas, como no racismo e na
+              situação das periferias do Brasil. Nem tudo é como parece!
+            </p>
+            <p class="text-center">
+              <v-btn
+                link
+                href="https://www.youtube.com/watch?v=TGg3sZ27mkc&ab_channel=TVBrasil"
+                >134 anos da Lei Áurea: documento original está no arquivo do
+                Senado</v-btn
+              >
+            </p>
+
+            <p class="pt-4">A princesa Isabel realmente é uma heroína?</p>
+            <p class="text-center">
+              <v-btn
+                link
+                href="https://www.tiktok.com/@robsondeaguiar/video/7049775846697045254?_t=8SUtvmnNqbd&_r=1"
+                >A lei áurea realmente libertou os escravos?</v-btn
+              >
+            </p>
+
+            <p class="pt-4">
+              “O dia 13 de maio não significa de forma alguma, a libertação dos
+              escravos”. Entenda tudo
+            </p>
+            <p class="text-center">
+              <v-btn
+                link
+                href="https://www.instagram.com/p/CdgGkZUMcms/?igshid=YmMyMTA2M2Y"
+                >A falsa abolição</v-btn
+              >
+            </p>
+          </v-card-text></v-col
         >
       </v-card>
     </v-row>

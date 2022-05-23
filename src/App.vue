@@ -5,7 +5,7 @@
       <v-spacer></v-spacer>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" color="#DCDCDC" app>
+    <v-navigation-drawer width="280px" v-model="drawer" color="#DCDCDC" app>
       <v-img
         src="@/assets/aurea.jpg"
         height="100%"
@@ -22,42 +22,42 @@
         <v-divider></v-divider>
 
         <v-list dense nav>
-          <v-list-item to="/" link>
+          <v-list-item class="pl-0" to="/" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-clipboard-text</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Introdução</h2>
+                <h2>Lei aurea</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
-          <v-list-item to="/first" link>
-            <v-list-item-icon>
+          <v-list-item class="pl-0" to="/first" link>
+            <v-list-item-icon class="pr-0">
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Tópico 1</h2>
+                <h2>E depois de 134 anos?</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
-          <v-list-item to="/second" link>
+          <v-list-item class="pl-0" to="/second" link>
             <v-list-item-icon>
-              <v-icon class="white--text">mdi-pencil-outline</v-icon>
+              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>Tópico 2</h2>
+                <h2>Formulário</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
