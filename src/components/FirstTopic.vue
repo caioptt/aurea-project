@@ -19,8 +19,7 @@
               <v-btn
                 link
                 href="https://www.youtube.com/watch?v=TGg3sZ27mkc&ab_channel=TVBrasil"
-                >134 anos da Lei Áurea: documento original está no arquivo do
-                Senado</v-btn
+                >134 anos da Lei Áurea</v-btn
               >
             </p>
 
@@ -29,7 +28,8 @@
               <v-btn
                 link
                 href="https://www.tiktok.com/@robsondeaguiar/video/7049775846697045254?_t=8SUtvmnNqbd&_r=1"
-                >A lei áurea realmente libertou os escravos?</v-btn
+              >
+                Realmente libertou os escravos?</v-btn
               >
             </p>
 
