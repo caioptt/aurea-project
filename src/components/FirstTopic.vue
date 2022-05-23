@@ -10,7 +10,7 @@
 
         <v-col>
           <v-card-text>
-            <p>
+            <p class="font-weight-bold">
               Uma reportagem dos 134 anos da Lei Áurea, apontadando os
               resquícios da escravidão em diversas formas, como no racismo e na
               situação das periferias do Brasil. Nem tudo é como parece!
@@ -23,7 +23,9 @@
               >
             </p>
 
-            <p class="pt-4">A princesa Isabel realmente é uma heroína?</p>
+            <p class="pt-4 font-weight-bold">
+              A princesa Isabel realmente é uma heroína?
+            </p>
             <p class="text-center">
               <v-btn
                 link
@@ -33,7 +35,7 @@
               >
             </p>
 
-            <p class="pt-4">
+            <p class="pt-4 font-weight-bold">
               “O dia 13 de maio não significa de forma alguma, a libertação dos
               escravos”. Entenda tudo
             </p>

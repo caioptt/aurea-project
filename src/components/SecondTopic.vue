@@ -11,6 +11,14 @@
         <v-col>
           <v-card-text>
             <p>Participe da pesquisa :</p>
+            <p>Sua opinião é importante!</p>
+            <p>
+              responda o formulário abaixo com apenas 3 perguntas sobre a
+              questão racial na atualidade e nos dê seu feedback sobre a
+              tecnologia dentro do ambiente escolar.
+            </p>
+            <p>Contamos com sua participação!</p>
+
             <p class="text-center">
               <v-btn
                 link
