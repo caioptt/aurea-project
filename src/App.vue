@@ -38,7 +38,7 @@
 
           <v-list-item class="pl-0" to="/first" link>
             <v-list-item-icon class="pr-0">
-              <v-icon class="white--text">mdi-pencil-outline</v-icon>
+              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
@@ -52,7 +52,7 @@
 
           <v-list-item class="pl-0" to="/second" link>
             <v-list-item-icon>
-              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+              <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
