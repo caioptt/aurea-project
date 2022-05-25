@@ -6,11 +6,7 @@
     </v-app-bar>
 
     <v-navigation-drawer width="280px" v-model="drawer" color="#DCDCDC" app>
-      <v-img
-        src="@/assets/aurea.jpg"
-        height="100%"
-        gradient="to top right, #80000071, #80000071"
-      >
+      <v-img src="@/assets/aurea.jpg" height="100%" gradient="to top right, #80000071, #80000071">
         <v-list-item class="secondary pb-2">
           <v-list-item-content>
             <v-list-item-title class="text-h6 white--text pt-2">
@@ -51,6 +47,34 @@
           <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
 
           <v-list-item class="pl-0" to="/second" link>
+            <v-list-item-icon class="pr-0">
+              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title class="white--text pb-1 pt-1">
+                <h2>Escravidão ainda hoje?</h2>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
+
+          <v-list-item class="pl-0" to="/third" link>
+            <v-list-item-icon class="pr-0">
+              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title class="white--text pb-1 pt-1">
+                <h2>test</h2>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider class="pt-1 ml-1 mr-1" color="white"></v-divider>
+
+          <v-list-item class="pl-0" to="/formPage" link>
             <v-list-item-icon>
               <v-icon class="white--text">mdi-pencil-outline</v-icon>
             </v-list-item-icon>
