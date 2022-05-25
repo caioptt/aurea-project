@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-card width="100%" class="mt-8 ml-4 mr-4" tile elevation="5">
+      <v-card width="100%" class="mt-8 ml-2 mr-2" tile elevation="5">
         <v-col>
           <v-card-text class="text-center mt-2">
             <h2>Escravidão ainda hoje ?</h2>
@@ -18,13 +18,13 @@
             <p class="text-center">
               <v-btn link
                 href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/05/13/idosa-e-resgatada-no-rio-apos-72-anos-em-situacao-analoga-a-escravidao.ghtml">
-                caso mais antigo de exploração
+                caso de exploração
               </v-btn>
             </p>
             <p class="text-center">
               <v-btn link
                 href="https://noticias.uol.com.br/cotidiano/ultimas-noticias/2021/03/07/professor-que-manteve-mulher-escravizada-por-38-anos-e-demitido.htm">
-                mulher escravizada por 38 anos
+                escravizada por 38 anos
               </v-btn>
             </p>
 

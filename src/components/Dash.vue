@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-card class="mt-8 ml-4 mr-4" tile elevation="5">
+      <v-card class="mt-8 ml-2 mr-2" tile elevation="5">
         <v-col>
           <v-card-text class="text-center mt-2 mb-2">
             <h1>Lei Áurea</h1>
@@ -9,18 +9,13 @@
         </v-col>
 
         <v-row>
-          <v-col class="" xs="12" sm="12" md="4" lg="4">
-            <v-card-text>
-              <v-img
-                class="ml-2"
-                height="300px"
-                width="95%"
-                src="@/assets/img1.jpg"
-              ></v-img>
+          <v-col class="pl-0 pr-0" xs="12" sm="12" md="4" lg="4">
+            <v-card-text class="pl-5 pr-1 text-center">
+              <v-img height="300px" width="95%" src="@/assets/img1.jpg"></v-img>
             </v-card-text>
           </v-col>
-          <v-col xs="12" sm="12" md="8" lg="8"
-            ><v-card-text>
+          <v-col xs="12" sm="12" md="8" lg="8">
+            <v-card-text>
               <p>
                 A Lei Áurea, foi assinada pela princesa Isabel enquanto regente
                 do Brasil (D. Pedro II estava viajando), no dia 13 de maio de
@@ -49,9 +44,9 @@
                 escravos que fugiam;
               </p>
               <p>3) Mobilização política que concretizou a aprovação da lei.</p>
-            </v-card-text></v-col
-          ></v-row
-        >
+            </v-card-text>
+          </v-col>
+        </v-row>
 
         <v-row>
           <v-col class="pt-0" xs="12" sm="12" md="8" lg="8">
@@ -101,20 +96,15 @@
                 o maior impacto foram realizadas pelos próprios escravos:
                 rebeliões e fugas.
               </p>
-            </v-card-text></v-col
-          >
-          <v-col class="" xs="12" sm="12" md="4" lg="4">
-            <v-card-text>
-              <v-img
-                class="ml-2"
-                height="400px"
-                width="95%"
-                src="@/assets/img2.jpg"
-              ></v-img>
             </v-card-text>
           </v-col>
-          <v-col class="pt-0"
-            ><v-card-text class="pt-0">
+          <v-col class="pl-0 pr-0" xs="12" sm="12" md="4" lg="4">
+            <v-card-text>
+              <v-img class="ml-2" height="400px" width="95%" src="@/assets/img2.jpg"></v-img>
+            </v-card-text>
+          </v-col>
+          <v-col class="pt-0">
+            <v-card-text class="pt-0">
               <p>
                 O resultado de tamanha mobilização foi o crescimento do número
                 de quilombos espalhados em diversas partes do Brasil, sobretudo
@@ -127,9 +117,9 @@
                 monarquia e os obrigou a abolir o trabalho escravo. Assim, no
                 dia 13 de maio de 1888, a princesa Isabel assinou a lei que
                 aboliu a escravidão de nosso país.
-              </p></v-card-text
-            ></v-col
-          >
+              </p>
+            </v-card-text>
+          </v-col>
         </v-row>
       </v-card>
     </v-row>

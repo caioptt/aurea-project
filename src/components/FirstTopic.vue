@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-card width="100%" class="mt-8 ml-4 mr-4" tile elevation="5">
+      <v-card width="100%" class="mt-8 ml-2 mr-2" tile elevation="5">
         <v-col>
           <v-card-text class="text-center mt-2">
             <h2>E depois de 134 anos ?</h2>
@@ -25,7 +25,7 @@
             </p>
             <p class="text-center">
               <v-btn link href="https://www.tiktok.com/@robsondeaguiar/video/7049775846697045254?_t=8SUtvmnNqbd&_r=1">
-                Realmente libertou os escravos?</v-btn>
+                Realmente libertou ?</v-btn>
             </p>
 
             <p class="pt-4 font-weight-bold">
