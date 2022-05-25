@@ -10,7 +10,7 @@
 
         <v-col>
           <v-card-text>
-            <p>Não precisa ser negro para lutar contra o racismo só precisa ser human</p>
+            <p>Não precisa ser negro para lutar contra o racismo só precisa ser humano</p>
             <p class="font-weight-bold">
               “Só Deus pode me julgar, por isso Vou na fé...”
             </p>
