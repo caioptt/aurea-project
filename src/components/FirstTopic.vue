@@ -30,7 +30,7 @@
 
             <p class="pt-4 font-weight-bold">
               “O dia 13 de maio não significa de forma alguma, a libertação dos
-              escravos”. Entenda tudo
+              escravos”. Entenda tudo:
             </p>
             <p class="text-center">
               <v-btn link href="https://www.instagram.com/p/CdgGkZUMcms/?igshid=YmMyMTA2M2Y">A falsa abolição</v-btn>

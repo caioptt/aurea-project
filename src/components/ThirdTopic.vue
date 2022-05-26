@@ -21,7 +21,7 @@
             </p>
 
             <p class="pt-4 font-weight-bold">
-              Racismo além de dores mentais e muito sofrimento, pode trazer algumas marcas físicas permanentes
+              Racismo além de dores mentais e muito sofrimento, pode trazer algumas marcas físicas permanentes.
             </p>
             <p class="text-center">
               <v-btn link href="https://www.instagram.com/p/Cd9RBHSrmgq/?igshid=YmMyMTA2M2Y=">
