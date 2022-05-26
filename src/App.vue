@@ -34,7 +34,7 @@
 
           <v-list-item class="pl-0" to="/first" link>
             <v-list-item-icon class="pr-0">
-              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+              <v-icon class="white--text">mdi-numeric-1-box</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
@@ -48,7 +48,7 @@
 
           <v-list-item class="pl-0" to="/second" link>
             <v-list-item-icon class="pr-0">
-              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+              <v-icon class="white--text">mdi-numeric-2-box</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
@@ -62,12 +62,12 @@
 
           <v-list-item class="pl-0" to="/third" link>
             <v-list-item-icon class="pr-0">
-              <v-icon class="white--text">mdi-format-list-numbered</v-icon>
+              <v-icon class="white--text">mdi-numeric-3-box</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title class="white--text pb-1 pt-1">
-                <h2>test</h2>
+                <h2>Ser Negro no Brasil</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
